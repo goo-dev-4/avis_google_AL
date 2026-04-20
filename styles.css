@@ -1,14 +1,14 @@
 :root {
-    --primary: #5f39ff;
-    --primary-dark: #4a2bd9;
-    --secondary: #20d9a1;
-    --dark: #3a3a3a;
+    --primary: #E41E20;
+    --primary-dark: #B31419;
+    --secondary: #000000;
+    --dark: #1a1a1a;
     --light: #f8f9fa;
     --white: #ffffff;
     --gray: #4a4a4a;
     --gray-light: #e9ecef;
-    --gradient: linear-gradient(135deg, #5f39ff 0%, #20d9a1 100%);
-    --shadow: 0 10px 40px rgba(95, 57, 255, 0.15);
+    --gradient: linear-gradient(135deg, #E41E20 0%, #000000 100%);
+    --shadow: 0 10px 40px rgba(228, 30, 32, 0.15);
     --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.08);
     --radius: 12px;
     --radius-lg: 20px;
@@ -72,12 +72,12 @@ img {
 .btn-primary {
     background: var(--gradient);
     color: var(--white);
-    box-shadow: 0 4px 20px rgba(95, 57, 255, 0.35);
+    box-shadow: 0 4px 20px rgba(228, 30, 32, 0.35);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(95, 57, 255, 0.45);
+    box-shadow: 0 8px 30px rgba(228, 30, 32, 0.45);
 }
 
 .btn-outline {
@@ -258,7 +258,7 @@ img {
 
 .hero {
     padding: 200px 0 100px;
-    background: linear-gradient(180deg, #f8f9ff 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #fff5f5 0%, var(--white) 100%);
     overflow: hidden;
 }
 
@@ -352,7 +352,7 @@ img {
 
 .credibility {
     padding: 100px 0;
-    background: linear-gradient(180deg, var(--white) 0%, #f8f9ff 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #fff5f5 100%);
 }
 
 .credibility .container {
@@ -410,7 +410,7 @@ img {
 
 .how-it-works {
     padding: 100px 0;
-    background: linear-gradient(180deg, var(--white) 0%, #f8f9ff 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #fff5f5 100%);
 }
 
 .section-title {
@@ -594,7 +594,7 @@ img {
 
 .faq {
     padding: 100px 0;
-    background: linear-gradient(180deg, #f8f9ff 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #fff5f5 0%, var(--white) 100%);
 }
 
 .faq-list {
@@ -750,7 +750,7 @@ img {
 }
 
 .promo-bar {
-    background: #e53e3e;
+    background: #000000;
     color: #fff;
     text-align: center;
     padding: 10px 20px;
@@ -767,7 +767,7 @@ img {
 
 .promo-bar .promo-code {
     background: #fff;
-    color: #e53e3e;
+    color: #000000;
     padding: 3px 10px;
     border-radius: 5px;
     font-weight: 800;
